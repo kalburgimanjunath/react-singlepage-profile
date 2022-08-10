@@ -1,0 +1,91 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #abff4f;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+.app .images {
+  width: 50%;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+}
+.app .rightpart {
+  width: 50%;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.app .images img {
+  width: 100%;
+}
+.about,
+.contact {
+  display: 'flex';
+  padding: 50px;
+}
+.contact {
+  background-color: #08bdbd;
+}
+.about h1,
+.contact h1 {
+  font-size: 6em;
+  font-family: 'Inter', sans-serif;
+  color: '#303030';
+  margin: 0;
+}
+.button {
+  padding: 2em 0;
+  color: 'white';
+}
+.button button {
+  padding: 20px 20px;
+  border-radius: 50px;
+  border: 1px solid #d6d6d6;
+  cursor: pointer;
+  background-color: #08bdbd;
+  font-weight: bold;
+  color: #fff;
+}
+.button button:hover {
+  scale: 1.05;
+}
+.contact .contact-form {
+  display: 'flex';
+}
+.contact .contact-form div {
+  padding: 10px 0px;
+}
+.contact .contact-form div label {
+  display: 'block';
+}
+.contact .contact-form div input {
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid #098484;
+  width: 20em;
+  background-color: #098484;
+  outline: none;
+  color: white;
+}
+.contact .contact-form div textarea {
+  outline: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid #098484;
+  width: 20em;
+  background-color: #098484;
+  color: white;
+}
+.contact .contact-form div input:hover,
+.contact .contact-form div input:focus {
+  border: 1px solid #098484;
+  outline: none;
+}
+.contact-form .button button {
+  background-color: #fff;
+  color: #098484;
+}
